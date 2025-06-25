@@ -1,0 +1,19 @@
+node_modules/
+
+# environment variables
+.env
+
+# logs
+logs
+*.log
+
+# system
+.DS_Store
+Thumbs.db
+
+# database local files (optional)
+*.sqlite
+*.db
+
+# OS related
+npm-debug.log*
