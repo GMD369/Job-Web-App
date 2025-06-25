@@ -17,7 +17,7 @@ app.use(express.json())
 
 app.use(
   cors({
-    origin: "http://localhost:5173", // ✅ Your React app's origin
+    origin: ["http://localhost:5173","https://job-web-app-tau.vercel.app"],
     credentials: true,               // ✅ Allow token/cookies
   })
 );
